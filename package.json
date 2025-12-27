@@ -1,0 +1,15 @@
+{
+  "name": "carta-api",
+  "version": "1.0.0",
+  "description": "API para generar cartas de jugadores con stats",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "TuNombre",
+  "license": "MIT",
+  "dependencies": {
+    "canvas": "^2.11.2",
+    "express": "^4.18.2"
+  }
+}
