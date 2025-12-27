@@ -53,12 +53,12 @@ app.get('/carta', async (req, res) => {
     const gap = canvas.height * 0.05;
 
     const stats = [
-      `⚽ GOLES: ${gol || 0}`,
-      `🎯 ASISTENCIAS: ${asis || 0}`,
-      `🌀 REGATE: ${drib || 0}`,
-      `🛡️ ROBOS: ${rob || 0}`,
-      `🧤 SAVES: ${saves || 0}`,
-      `📊 PARTIDAS: ${partidas || 0}`,
+      ` GOLES: ${gol || 0}`,
+      ` ASISTENCIAS: ${asis || 0}`,
+      ` REGATE: ${drib || 0}`,
+      ` ROBOS: ${rob || 0}`,
+      ` SAVES: ${saves || 0}`,
+      ` PARTIDAS: ${partidas || 0}`,
       `Estilo: ${estilo || 'Ninguno'}`
     ];
 
