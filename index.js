@@ -37,7 +37,7 @@ app.get('/carta', async (req, res) => {
     ctx.lineWidth = 4;
     ctx.font = `bold ${canvas.width / 14}px Arial`;
 
-    const title = `╔═══ ${titt} ═══╗`;
+    const title = `╔═══${titt}═══╗`;
     ctx.strokeText(title, canvas.width / 2, canvas.height * 0.1);
     ctx.fillText(title, canvas.width / 2, canvas.height * 0.1);
 
